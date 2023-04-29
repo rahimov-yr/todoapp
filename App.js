@@ -6,7 +6,7 @@ import {
   Text,
   TextInput,
 } from "react-native";
-
+/// Just comments
 const ToDoList = () => {
   const [toDo, setToDo] = useState(["Buy milk", "Read book"]);
   const [inputText, setInputText] = useState("");
