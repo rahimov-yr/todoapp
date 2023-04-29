@@ -23,6 +23,7 @@ const ToDoList = () => {
       return item !== nameOfToDo
     })
 
+    /// intro
     setToDo(newData);
   }
 
