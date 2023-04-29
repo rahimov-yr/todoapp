@@ -19,6 +19,7 @@ const ToDoList = () => {
   const deleteHandle = (nameOfToDo) => {
     const newData = toDo.filter((item) => {
       // console.log(item)
+      // console.log(item)
       return item !== nameOfToDo
     })
 
