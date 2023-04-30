@@ -15,6 +15,7 @@ const ToDoList = () => {
     if(inputText) setToDo([...toDo, inputText]);
     setInputText("");
     /// -------   
+    /// -------   
   };
 
   const deleteHandle = (nameOfToDo) => {
